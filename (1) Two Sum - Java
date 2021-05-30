@@ -1,3 +1,12 @@
+/*
+ * Create Date : 2021.05.30
+ * Creater : 김지원
+ * Title : Two Sum
+ * link : https://leetcode.com/problems/two-sum/
+ * Description : 배열에 있는 숫자들 중 두 개의 수를 더해 타켓 숫자를 만드는 문제 일반적인 풀이는 O(n*n)
+ *
+ */
+
 class Solution {
     public int[] twoSum(int[] nums, int target) {
         for(int i = 0 ; i < nums.length-1 ; i++){
